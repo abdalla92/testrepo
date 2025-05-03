@@ -1,0 +1,6 @@
+
+my_dict={"banana":4, "Apple":8, "grape":0}
+
+sorted_dic = dict(sorted(my_dict.items(), key = lambda item : item[1]))
+
+print(sorted_dic)
